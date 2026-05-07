@@ -1,0 +1,48 @@
+# ---------------- VIRTUAL ENVIRONMENT ----------------
+
+venv/
+
+
+# ---------------- ENVIRONMENT VARIABLES ----------------
+
+.env
+
+
+# ---------------- PYTHON CACHE ----------------
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# ---------------- VECTOR DATABASE ----------------
+
+chroma_db/
+
+
+# ---------------- SESSION STORAGE ----------------
+
+sessions/
+
+
+# ---------------- TEMPORARY FILES ----------------
+
+temp/
+
+
+# ---------------- STREAMLIT CACHE ----------------
+
+.streamlit/
+
+
+# ---------------- IDE FILES ----------------
+
+.vscode/
+.idea/
+
+
+# ---------------- OPERATING SYSTEM FILES ----------------
+
+.DS_Store
+Thumbs.db
