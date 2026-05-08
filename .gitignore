@@ -16,9 +16,7 @@ __pycache__/
 *.pyd
 
 
-# ---------------- VECTOR DATABASE ----------------
 
-chroma_db/
 
 
 # ---------------- SESSION STORAGE ----------------
@@ -44,5 +42,16 @@ temp/
 
 # ---------------- OPERATING SYSTEM FILES ----------------
 
+.DS_Store
+Thumbs.db
+
+venv/
+__pycache__/
+.env
+sessions/
+temp/
+.streamlit/
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db

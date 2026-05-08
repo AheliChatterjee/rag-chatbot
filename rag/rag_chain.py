@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-
+import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
@@ -11,10 +11,10 @@ load_dotenv()
 
 # Initialize LLM
 llm = ChatGroq(
+    api_key=st.secrets["GROQ_API_KEY"],
     model="llama-3.1-8b-instant",
     temperature=0.3
 )
-
 # Prompt template
 prompt = ChatPromptTemplate.from_template(
     """
